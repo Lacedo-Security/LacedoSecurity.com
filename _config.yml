@@ -1,0 +1,19 @@
+email: justin@LacedoSecurity.com
+name: Lacedo Security
+description: Lacedo Security Responsibly Discloses Security Vulnerabilities Before They're Exploited
+keywords: ""
+baseurl: ""
+url: "https://lacedosecurity.com"
+
+markdown: kramdown
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+    input: GFM
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 6
+paginate_path: "/blog/page:num/"
